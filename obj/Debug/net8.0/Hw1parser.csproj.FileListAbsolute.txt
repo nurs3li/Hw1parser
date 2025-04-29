@@ -1,0 +1,17 @@
+C:\Users\Nwrseli\source\repos\Hw1parser\bin\Debug\net8.0\Hw1parser.exe
+C:\Users\Nwrseli\source\repos\Hw1parser\bin\Debug\net8.0\Hw1parser.deps.json
+C:\Users\Nwrseli\source\repos\Hw1parser\bin\Debug\net8.0\Hw1parser.runtimeconfig.json
+C:\Users\Nwrseli\source\repos\Hw1parser\bin\Debug\net8.0\Hw1parser.dll
+C:\Users\Nwrseli\source\repos\Hw1parser\bin\Debug\net8.0\Hw1parser.pdb
+C:\Users\Nwrseli\source\repos\Hw1parser\obj\Debug\net8.0\Hw1parser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nwrseli\source\repos\Hw1parser\obj\Debug\net8.0\Hw1parser.AssemblyInfoInputs.cache
+C:\Users\Nwrseli\source\repos\Hw1parser\obj\Debug\net8.0\Hw1parser.AssemblyInfo.cs
+C:\Users\Nwrseli\source\repos\Hw1parser\obj\Debug\net8.0\Hw1parser.csproj.CoreCompileInputs.cache
+C:\Users\Nwrseli\source\repos\Hw1parser\obj\Debug\net8.0\Hw1parser.dll
+C:\Users\Nwrseli\source\repos\Hw1parser\obj\Debug\net8.0\refint\Hw1parser.dll
+C:\Users\Nwrseli\source\repos\Hw1parser\obj\Debug\net8.0\Hw1parser.pdb
+C:\Users\Nwrseli\source\repos\Hw1parser\obj\Debug\net8.0\Hw1parser.genruntimeconfig.cache
+C:\Users\Nwrseli\source\repos\Hw1parser\obj\Debug\net8.0\ref\Hw1parser.dll
+C:\Users\Nwrseli\source\repos\Hw1parser\bin\Debug\net8.0\ActionTable.txt
+C:\Users\Nwrseli\source\repos\Hw1parser\bin\Debug\net8.0\GotoTable.txt
+C:\Users\Nwrseli\source\repos\Hw1parser\bin\Debug\net8.0\Grammar.txt
