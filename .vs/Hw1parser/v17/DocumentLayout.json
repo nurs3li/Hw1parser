@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|c:\\users\\nwrseli\\source\\repos\\hw1parser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|c:\\users\\nwrseli\\source\\repos\\hw1parser\\actiontable.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|solutionrelative:actiontable.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|c:\\users\\nwrseli\\source\\repos\\hw1parser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|c:\\users\\nwrseli\\source\\repos\\hw1parser\\gototable.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -19,11 +19,11 @@
       "RelativeMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|solutionrelative:grammar.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F96F0CC-06F5-4CE8-8F8A-2F02B927A663}|\u00C7\u00F6z\u00FCm \u00D6\u011Feleri{9F96F0CC-06F5-4CE8-8F8A-2F02B927A663}|C:\\Users\\Nwrseli\\Desktop\\Hw1\\ActionTable.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|c:\\users\\nwrseli\\source\\repos\\hw1parser\\hw1parser.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|solutionrelative:hw1parser.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F96F0CC-06F5-4CE8-8F8A-2F02B927A663}|\u00C7\u00F6z\u00FCm \u00D6\u011Feleri{9F96F0CC-06F5-4CE8-8F8A-2F02B927A663}|C:\\Users\\Nwrseli\\Desktop\\Hw1\\ActionTable.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,7 +33,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -45,20 +45,20 @@
               "RelativeToolTip": "Grammar.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-29T16:04:21.97Z",
+              "WhenOpened": "2025-04-30T18:19:29.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ActionTable.txt",
               "DocumentMoniker": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\ActionTable.txt",
               "RelativeDocumentMoniker": "ActionTable.txt",
               "ToolTip": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\ActionTable.txt",
               "RelativeToolTip": "ActionTable.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-29T16:04:19.495Z",
+              "WhenOpened": "2025-04-30T18:18:12.141Z",
               "EditorCaption": ""
             },
             {
@@ -69,14 +69,14 @@
               "RelativeDocumentMoniker": "GotoTable.txt",
               "ToolTip": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\GotoTable.txt",
               "RelativeToolTip": "GotoTable.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-29T16:04:18.351Z",
+              "WhenOpened": "2025-04-30T15:53:38.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Hw1parser.csproj",
               "DocumentMoniker": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\Hw1parser.csproj",
               "RelativeDocumentMoniker": "Hw1parser.csproj",
@@ -84,24 +84,25 @@
               "RelativeToolTip": "Hw1parser.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-26T20:38:17.848Z"
+              "WhenOpened": "2025-04-26T20:38:17.848Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAqwHEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T19:42:13.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ActionTable.txt",
               "DocumentMoniker": "C:\\Users\\Nwrseli\\Desktop\\Hw1\\ActionTable.txt",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Hw1\\ActionTable.txt",
@@ -109,7 +110,7 @@
               "RelativeToolTip": "..\\..\\..\\Desktop\\Hw1\\ActionTable.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-26T20:46:35.375Z"
+              "WhenOpened": "2025-04-30T15:51:23.481Z"
             }
           ]
         }

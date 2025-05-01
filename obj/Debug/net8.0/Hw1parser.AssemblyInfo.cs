@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hw1parser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42452fc19216639840e548f8b3a6d589310ad3ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hw1parser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hw1parser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
