@@ -1,216 +1,272 @@
-﻿// Student: [Adını Buraya Yaz]
-// ID: [Öğrenci Numaran]
-// Homework 1 – LR Parser Implementation
-// Açıklama: Bu ödevde verilen grammar, action ve goto tablolarına göre bir LR parser tasarlanmıştır.
-// Kodun amacı: Verilen input ifadeleri stack üzerinden shift-reduce yöntemiyle parse etmek ve parse tree üretmektir.
+﻿
+//NURSELİ YILDIZ B221202040 
+//ABDULKADİR KILIÇ B221202015
+
 
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 
-namespace Hw1parser
+namespace LRParser
 {
-    class Program
+    public class Rule
     {
-        static void Main(string[] args)
+        public string Lhs { get; }
+        public List<string> Rhs { get; }
+        public Rule(string lhs, List<string> rhs)   // burası genel gramer kuralıdır hocam.
         {
-            // Grammar, ActionTable ve GotoTable dosyalarını oku
-            List<string> grammar = ReadFile("Grammar.txt");
-            var actionTable = LoadActionTable("ActionTable.txt");
-            var gotoTable = LoadGotoTable("GotoTable.txt");
+            Lhs = lhs;
+            Rhs = rhs;
+        }
+    }
+    public class TreeNode
+    {
+        public string Value { get; }
+        public List<TreeNode> Children { get; } //güğüm mantıgı burada oluşturuluyorr..
+        public TreeNode(string value)
+        {
+            Value = value;
+            Children = new List<TreeNode>();
+        }
+    }
+    public class Parser
+    {
+        private List<object> _stack;
+        private List<TreeNode> _treeStack;
+        private List<string> _input;
+        private int _pos;
+        public List<string> Trace { get; }
+        public List<string> Log { get; }    // bu kısım temel lr parser uygulaması için bir algoritma
+        private List<Rule> _grammar;
+        private Dictionary<(int, string), string> _actionTable;
+        private Dictionary<(int, string), int> _gotoTable;
+        public TreeNode ParseTree { get; private set; }
 
-            Console.WriteLine("\nDosyalar başarıyla okundu!");
-            Console.WriteLine("\nBir ifade giriniz (örnek: id + id * id):");
-            string inputLine = Console.ReadLine();
+        public Parser(string input, List<Rule> grammar,
+                      Dictionary<(int, string), string> actionTable,
+                      Dictionary<(int, string), int> gotoTable)
+        {
+            _stack = new List<object> { 0 };
+            _treeStack = new List<TreeNode>();
+            _input = input.Split(' ').ToList();
+            _pos = 0;
+            _grammar = grammar;
+            _actionTable = actionTable;   
+            _gotoTable = gotoTable;
 
-            // Kullanıcıdan alınan ifadeyi boşluklardan ayır ve sonuna $ ekle
-            List<string> inputTokens = new List<string>(inputLine.Trim().Split(' '));
-            inputTokens.Add("$");
-
-            Stack<string> stack = new Stack<string>();
-            stack.Push("0"); // Başlangıç state
-
-            List<string> parseTree = new List<string>();
-            bool accepted = false;
-
-            // Başlık satırı (Stage, Options, Options)
-            Console.WriteLine("\n{0,-15}{1,-25}{2,-25}", "Stage", "Options", "Options");
-            Console.WriteLine(new string('-', 65));
-
-            while (!accepted)
+            Trace = new List<string>
             {
-                // Stack'in tepesindeki state alınır
-                if (!int.TryParse(stack.Peek(), out int currentState))
+                "Stack                                    Input                                    Action",
+                new string('-', 104)
+            };
+            Log = new List<string>();
+        }
+
+        private string StackToString()
+        {
+            var sb = new StringBuilder();
+            foreach (var item in _stack)      //amacı zaten method asından belli
+                sb.Append(item);
+            return sb.ToString().PadRight(40);
+        }
+
+        private string InputToString()
+        {
+            var remaining = _pos < _input.Count ? _input.Skip(_pos) : Enumerable.Empty<string>();
+            return string.Join(" ", remaining).PadRight(40);
+        }
+
+        private void Shift(int nextState)
+        {
+            var token = _input[_pos];
+            _stack.Add(token);
+            _stack.Add(nextState);
+            _treeStack.Add(new TreeNode(token));
+            _pos++;
+            Trace.Add($"{StackToString()}{InputToString()}Shift {nextState}");
+            Log.Add($"Shift: Moved to state {nextState} with token {token}");
+        }
+
+        private void Reduce(int ruleNum)
+        {
+            var rule = _grammar[ruleNum];
+            int rhsLen = rule.Rhs.Count * 2;
+            if (rhsLen > 0)
+                _stack.RemoveRange(_stack.Count - rhsLen, rhsLen);
+
+            int state = (int)_stack.Last();
+            if (!_gotoTable.TryGetValue((state, rule.Lhs), out int nextState))
+            {
+                Log.Add($"Error: No GOTO state for state {state} and non-terminal {rule.Lhs}");
+                return;
+            }
+
+            _stack.Add(rule.Lhs);
+            _stack.Add(nextState);
+
+            var parent = new TreeNode(rule.Lhs);
+            int numChildren = rule.Rhs.Count;
+            if (numChildren > 0 && _treeStack.Count >= numChildren)
+            {
+                var children = _treeStack.GetRange(_treeStack.Count - numChildren, numChildren);
+                _treeStack.RemoveRange(_treeStack.Count - numChildren, numChildren);
+                parent.Children.AddRange(children);
+            }
+            _treeStack.Add(parent);
+
+            if (_stack.Count == 3 && (int)_stack[0] == 0 && _stack[1].ToString() == "E" && rule.Lhs == "E")
+            {
+                ParseTree = parent;
+            }
+
+            Trace.Add($"{StackToString()}{InputToString()}Reduce {ruleNum} (GOTO [{state}, {rule.Lhs}])");
+            Log.Add($"Reduce: Applied rule {ruleNum} ({rule.Lhs} → {string.Join(" ", rule.Rhs)}), GOTO state {nextState}");
+        }
+
+        public bool Parse()
+        {
+            while (true)
+            {
+                int state = (int)_stack.Last();
+                string token = _pos < _input.Count ? _input[_pos] : "$";
+
+                if (!_actionTable.TryGetValue((state, token), out string action) || string.IsNullOrEmpty(action))
                 {
-                    Console.WriteLine("[HATA] Stack Peek bir state değil: " + stack.Peek());
-                    break;
+                    Trace.Add($"{StackToString()}{InputToString()}Syntax error");
+                    Log.Add($"Syntax error: No action for state {state} and token {token}");
+                    throw new Exception($"syntax error at token {token}");
                 }
 
-                string currentToken = inputTokens.Count > 0 ? inputTokens[0] : "$";
-                string action = FindAction(actionTable, currentState, currentToken);
-
-                // Anlık durum tablosu satırı bastırılır
-                string stackStr = string.Join("", stack.Reverse());
-                string inputStr = string.Join(" ", inputTokens);
-                string actionStr = FormatActionDescription(action, currentState, currentToken, grammar, gotoTable, stack);
-
-                Console.WriteLine("{0,-15}{1,-25}{2,-25}", stackStr, inputStr, actionStr);
-
-                if (action == "acc" || action == "accept")
+                if (action == "accept")
                 {
-                    Console.WriteLine("\nParsing başarıyla tamamlandı!");
-                    accepted = true;
+                    Trace.Add($"{StackToString()}{InputToString()}Accept");
+                    Log.Add("Parsing successful");
+                    return true;
                 }
-                else if (action.StartsWith("s") || action.StartsWith("S"))
+
+                if (action.StartsWith("s"))
                 {
-                    // Shift işlemi yapılır: token ve yeni state stack'e eklenir
                     int nextState = int.Parse(action.Substring(1));
-                    stack.Push(currentToken);
-                    stack.Push(nextState.ToString());
-                    inputTokens.RemoveAt(0);
+                    Shift(nextState);
                 }
-                else if (action.StartsWith("r") || action.StartsWith("R"))
+                else if (action.StartsWith("r"))
                 {
-                    int productionNumber = int.Parse(action.Substring(1));
-                    string production = grammar[productionNumber - 1];
-                    string[] parts = production.Split("->");
-                    string leftSide = parts[0].Trim(); // "F"
-                    string rightSide = parts[1].Trim(); // "id"
-
-                    // Stack'ten çıkarılacak eleman sayısı = 2 * sağ taraf token sayısı
-                    string[] rightSymbols = rightSide.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-                    if (stack.Count < rightSymbols.Length * 2)
-                    {
-                        Console.WriteLine("[HATA] Stack'te yeterli eleman yok!");
-                        break;
-                    }
-
-                    for (int i = 0; i < rightSymbols.Length; i++)
-                    {
-                        stack.Pop(); // State
-                        stack.Pop(); // Symbol
-                    }
-
-                    int topState = int.Parse(stack.Peek());
-                    int gotoState = FindGoto(gotoTable, topState, leftSide); // GOTO[0, F] aranacak
-
-                    if (gotoState == -1)
-                    {
-                        Console.WriteLine($"\nHATA: GOTO[{topState}, {leftSide}] bulunamadı!");
-                        Console.WriteLine($"Grammar Kuralı: {production}");
-                        Console.WriteLine($"Stack: {string.Join(" ", stack.Reverse())}");
-                        break;
-                    }
-
-                    stack.Push(leftSide);
-                    stack.Push(gotoState.ToString());
-                    parseTree.Add("/" + leftSide);
-                }
-                else
-                {
-                    // Tanımsız action → syntax hatası
-                    Console.WriteLine("\nSyntax Error! Parsing başarısız oldu.");
-                    break;
+                    int ruleNum = int.Parse(action.Substring(1));
+                    Reduce(ruleNum);
                 }
             }
-
-            Console.WriteLine("\n---");
-            Console.WriteLine("\nParse tree:");
-            foreach (var node in parseTree)
-                Console.WriteLine(node);
         }
 
-        // Action açıklaması biçimlendirici fonksiyon
-        static string FormatActionDescription(string action, int state, string token, List<string> grammar, Dictionary<(int, string), int> gotoTable, Stack<string> stack)
+        public void PrintTree(TreeNode node, string prefix, bool isLast, StringBuilder builder, HashSet<TreeNode> visited)
         {
-            if (action.StartsWith("s")) return "Shift " + action.Substring(1);
-            else if (action.StartsWith("r"))
+            if (node == null || visited.Contains(node))
             {
-                int prodNum = int.Parse(action.Substring(1));
-                string production = grammar[prodNum - 1];
-                string[] parts = production.Split("->");
-                string left = parts[0].Trim();
-                int topState = int.Parse(stack.Peek()); // DÜZELTME: stack.Peek() kullan
-                return $"Reduce {prodNum} (GOTO [{topState}, {left}])"; // 6 F yerine F yaz
+                builder.AppendLine(prefix + "[Cycle detected]");
+                return;
             }
-            else if (action == "acc") return "Accept";
-            else return "error";
-        }
+            visited.Add(node);
 
-        // Action tablosunu dosyadan okur
-        static Dictionary<(int, string), string> LoadActionTable(string filename)
-        {
-            var actionTable = new Dictionary<(int, string), string>();
-            var lines = File.ReadAllLines(filename);
-
-            var headers = lines[0].Split(new[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries).ToList();
-            if (headers[0] == "State") headers.RemoveAt(0);
-
-            for (int i = 1; i < lines.Length; i++)
+            builder.AppendLine(string.IsNullOrEmpty(prefix) ? "/" + node.Value : prefix + "/" + node.Value);
+            foreach (var child in node.Children)
             {
-                var parts = lines[i].Split(new[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
-                if (parts.Length == 0) continue;
-
+                string newPrefix = string.IsNullOrEmpty(prefix) ? "/" + node.Value : prefix + "/" + node.Value;
+                PrintTree(child, newPrefix, false, builder, visited);
+            }
+            visited.Remove(node);
+        }
+        public static List<Rule> ReadGrammar(string inputDir)
+        {
+            var lines = File.ReadAllLines(Path.Combine(inputDir, "Grammar.txt"));
+            var grammar = new Rule[lines.Length + 1];
+            grammar[0] = new Rule("", new List<string>());
+            foreach (var line in lines.Where(l => !string.IsNullOrWhiteSpace(l)))
+            {
+                var parts = line.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                if (parts.Length < 3) continue;
+                int ruleNum = int.Parse(parts[0]);
+                string lhs = parts[1];
+                var rhs = parts.Skip(3).ToList();
+                grammar[ruleNum] = new Rule(lhs, rhs);
+            }
+            return grammar.ToList();
+        }
+        public static Dictionary<(int, string), string> ReadActionTable(string inputDir)
+        {
+            var lines = File.ReadAllLines(Path.Combine(inputDir, "ActionTable.txt"));
+            var headers = lines[0].Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Skip(1).ToArray();
+            var table = new Dictionary<(int, string), string>();
+            foreach (var line in lines.Skip(1))
+            {
+                var parts = line.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
                 int state = int.Parse(parts[0]);
                 for (int j = 1; j < parts.Length; j++)
                 {
-                    if (parts[j] != "-" && j - 1 < headers.Count)
-                        actionTable[(state, headers[j - 1])] = parts[j];
+                    string action = parts[j] == "-" ? "" : parts[j];
+                    table[(state, headers[j - 1])] = action;
                 }
             }
-            return actionTable;
+            return table;
         }
-
-        // Belirli bir state ve token için action'ı döndürür
-        static string FindAction(Dictionary<(int, string), string> actionTable, int state, string token)
+        public static Dictionary<(int, string), int> ReadGotoTable(string inputDir)
         {
-            return actionTable.TryGetValue((state, token), out string action) ? action : "error";
-        }
-
-        // Goto tablosunu dosyadan okur
-        static Dictionary<(int, string), int> LoadGotoTable(string filename)
-        {
-            var gotoTable = new Dictionary<(int, string), int>();
-            var lines = File.ReadAllLines(filename);
-
-            // Başlık satırını işle
-            var headers = lines[0].Split(new[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries).ToList();
-            if (headers[0] == "State") headers.RemoveAt(0);
-
-            for (int i = 1; i < lines.Length; i++)
+            var lines = File.ReadAllLines(Path.Combine(inputDir, "GotoTable.txt"));
+            var headers = lines[0].Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Skip(1).ToArray();
+            var table = new Dictionary<(int, string), int>();
+            foreach (var line in lines.Skip(1))
             {
-                var parts = lines[i].Split(new[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
-                if (parts.Length == 0) continue;
-
-                // State numarasını al
-                if (!int.TryParse(parts[0], out int state))
-                    continue; // Geçersiz state satırını atla
-
-                for (int j = 1; j < parts.Length && j - 1 < headers.Count; j++)
+                var parts = line.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                int state = int.Parse(parts[0]);
+                for (int j = 1; j < parts.Length; j++)
                 {
-                    // "-" değerlerini atla, sadece sayısal değerleri işle
-                    if (parts[j] != "-" && int.TryParse(parts[j], out int nextState))
-                    {
-                        gotoTable[(state, headers[j - 1])] = nextState;
-                    }
+                    if (parts[j] != "-")
+                        table[(state, headers[j - 1])] = int.Parse(parts[j]);
                 }
             }
-            return gotoTable;
+            return table;
         }
-
-        // Belirli bir state ve non-terminal için goto değerini döndürür
-        static int FindGoto(Dictionary<(int, string), int> gotoTable, int state, string nonTerminal)
+    }
+    public class Program
+    {
+        public static void Main(string[] args)
         {
-            if (gotoTable.TryGetValue((state, nonTerminal), out int nextState))
-                return nextState;
-            return -1; // Bulunamazsa -1 döndür
-        }
+            string inputDir = "inputs";
+            string outputDir = "outputs";
+            Directory.CreateDirectory(outputDir);
 
-        // Dosya okuma işlemi (satır satır)
-        static List<string> ReadFile(string filename)
-        {
-            return File.ReadLines(filename).Select(line => line.Trim()).ToList();
+            var grammar = Parser.ReadGrammar(inputDir);
+            var actionTable = Parser.ReadActionTable(inputDir);
+            var gotoTable = Parser.ReadGotoTable(inputDir);
+
+            for (int i = 1; i <= 9; i++)
+            {
+                string inputFile = Path.Combine(inputDir, $"input{i}.txt");
+                string outputFile = Path.Combine(outputDir, $"output{i}.txt");
+                string logFile = Path.Combine(outputDir, $"log{i}.txt");
+
+                if (!File.Exists(inputFile)) continue;
+                string inputText = File.ReadAllText(inputFile).Trim();
+
+                Parser parser = new Parser(inputText, grammar, actionTable, gotoTable);
+                bool success = false; Exception ex = null;
+                try { success = parser.Parse(); } catch (Exception e) { ex = e; }
+
+                var sb = new StringBuilder();
+                foreach (var line in parser.Trace)
+                    sb.AppendLine(line);
+                sb.AppendLine(new string('-', 104));
+                sb.AppendLine("Parse tree:");
+                parser.PrintTree(parser.ParseTree, "", true, sb, new HashSet<TreeNode>());
+
+                File.WriteAllText(outputFile, sb.ToString());
+                File.WriteAllText(logFile, string.Join(Environment.NewLine, parser.Log));
+
+                if (!success)
+                    Console.WriteLine($"Parsing failed for {inputFile}: {ex?.Message}");
+                else
+                    Console.WriteLine($"Parsing successful for {inputFile}");
+            }
         }
     }
 }

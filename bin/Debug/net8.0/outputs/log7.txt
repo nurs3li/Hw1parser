@@ -1,0 +1,6 @@
+Shift: Moved to state 5 with token id
+Reduce: Applied rule 6 (F → id), GOTO state 3
+Reduce: Applied rule 4 (T → F), GOTO state 2
+Reduce: Applied rule 2 (E → T), GOTO state 1
+Shift: Moved to state 6 with token +
+Syntax error: No action for state 6 and token *

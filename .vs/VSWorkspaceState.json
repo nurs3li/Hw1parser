@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\net8.0",
+    "\\bin\\Debug\\net8.0\\outputs"
   ],
-  "SelectedNode": "\\Hw1parser.sln",
+  "SelectedNode": "\\bin\\Debug\\net8.0\\outputs\\output5.txt",
   "PreviewInSolutionExplorer": false
 }

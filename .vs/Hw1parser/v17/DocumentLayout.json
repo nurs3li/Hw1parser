@@ -1,29 +1,146 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\",
+  "WorkspaceRootPath": "C:\\Users\\abdul\\Desktop\\Hw1parser\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|c:\\users\\nwrseli\\source\\repos\\hw1parser\\actiontable.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|solutionrelative:actiontable.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output5.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\output5.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|c:\\users\\nwrseli\\source\\repos\\hw1parser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output9.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\output9.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|c:\\users\\nwrseli\\source\\repos\\hw1parser\\gototable.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|solutionrelative:gototable.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output8.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\output8.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|c:\\users\\nwrseli\\source\\repos\\hw1parser\\grammar.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|solutionrelative:grammar.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output7.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\output7.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|c:\\users\\nwrseli\\source\\repos\\hw1parser\\hw1parser.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9C6D5AAA-52C7-4BA2-AED5-857B952686E8}|Hw1parser.csproj|solutionrelative:hw1parser.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output6.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\output6.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F96F0CC-06F5-4CE8-8F8A-2F02B927A663}|\u00C7\u00F6z\u00FCm \u00D6\u011Feleri{9F96F0CC-06F5-4CE8-8F8A-2F02B927A663}|C:\\Users\\Nwrseli\\Desktop\\Hw1\\ActionTable.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output4.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\output4.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output3.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\output3.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\output2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\output1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log9.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\log9.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log8.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\log8.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log7.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\log7.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log6.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\log6.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log5.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\log5.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log4.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\log4.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log3.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\log3.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\log2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\outputs\\log1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input9.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\inputs\\input9.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input8.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\inputs\\input8.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input7.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\inputs\\input7.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input6.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\inputs\\input6.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input5.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\inputs\\input5.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input4.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\inputs\\input4.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input3.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\inputs\\input3.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\inputs\\input2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\inputs\\input1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\Grammar.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\inputs\\Grammar.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\GotoTable.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\inputs\\GotoTable.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\ActionTable.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\inputs\\ActionTable.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Desktop\\Hw1parser\\README.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Downloads\\input1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Downloads\\Grammar.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Downloads\\ActionTable.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abdul\\Downloads\\GotoTable.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,84 +150,479 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Grammar.txt",
-              "DocumentMoniker": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\Grammar.txt",
-              "RelativeDocumentMoniker": "Grammar.txt",
-              "ToolTip": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\Grammar.txt",
-              "RelativeToolTip": "Grammar.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-30T18:19:29.004Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ActionTable.txt",
-              "DocumentMoniker": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\ActionTable.txt",
-              "RelativeDocumentMoniker": "ActionTable.txt",
-              "ToolTip": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\ActionTable.txt",
-              "RelativeToolTip": "ActionTable.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "output9.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output9.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\output9.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output9.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\output9.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-30T18:18:12.141Z",
+              "WhenOpened": "2025-05-01T20:26:50.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GotoTable.txt",
-              "DocumentMoniker": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\GotoTable.txt",
-              "RelativeDocumentMoniker": "GotoTable.txt",
-              "ToolTip": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\GotoTable.txt",
-              "RelativeToolTip": "GotoTable.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Title": "output8.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output8.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\output8.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output8.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\output8.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-30T15:53:38.794Z",
+              "WhenOpened": "2025-05-01T20:26:49.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "output7.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output7.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\output7.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output7.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\output7.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:26:48.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Hw1parser.csproj",
-              "DocumentMoniker": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\Hw1parser.csproj",
-              "RelativeDocumentMoniker": "Hw1parser.csproj",
-              "ToolTip": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\Hw1parser.csproj",
-              "RelativeToolTip": "Hw1parser.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-26T20:38:17.848Z",
+              "Title": "output6.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output6.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\output6.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output6.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\output6.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:26:48.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Nwrseli\\source\\repos\\Hw1parser\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAqwHEAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T19:42:13.198Z",
+              "DocumentIndex": 0,
+              "Title": "output5.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output5.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\output5.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output5.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\output5.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:26:47.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ActionTable.txt",
-              "DocumentMoniker": "C:\\Users\\Nwrseli\\Desktop\\Hw1\\ActionTable.txt",
-              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Hw1\\ActionTable.txt",
-              "ToolTip": "C:\\Users\\Nwrseli\\Desktop\\Hw1\\ActionTable.txt",
-              "RelativeToolTip": "..\\..\\..\\Desktop\\Hw1\\ActionTable.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "output4.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output4.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\output4.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output4.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\output4.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-30T15:51:23.481Z"
+              "WhenOpened": "2025-05-01T20:26:47.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "output3.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output3.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\output3.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output3.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\output3.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:26:46.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "output2.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output2.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\output2.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output2.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\output2.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:26:45.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "output1.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output1.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\output1.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\output1.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\output1.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:26:45.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "log9.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log9.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\log9.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log9.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\log9.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:26:44.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "log8.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log8.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\log8.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log8.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\log8.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:26:44.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "log7.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log7.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\log7.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log7.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\log7.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:26:43.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "log6.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log6.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\log6.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log6.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\log6.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:26:43.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "log5.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log5.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\log5.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log5.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\log5.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:26:42.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "log4.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log4.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\log4.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log4.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\log4.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:26:41.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "log3.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log3.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\log3.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log3.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\log3.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:26:41.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "log2.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log2.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\log2.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log2.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\log2.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:26:40.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "log1.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log1.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\outputs\\log1.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\outputs\\log1.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\outputs\\log1.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:26:40.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "input8.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input8.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\inputs\\input8.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input8.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\inputs\\input8.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:25:27.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "input6.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input6.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\inputs\\input6.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input6.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\inputs\\input6.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:25:25.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "input5.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input5.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\inputs\\input5.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input5.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\inputs\\input5.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:25:25.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "input4.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input4.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\inputs\\input4.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input4.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\inputs\\input4.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:25:24.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "input3.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input3.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\inputs\\input3.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input3.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\inputs\\input3.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T20:25:23.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "program.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\program.cs",
+              "RelativeDocumentMoniker": "program.cs",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\program.cs",
+              "RelativeToolTip": "program.cs",
+              "ViewState": "AQIAAP8AAAAAAAAAAAAAAAIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:55:39.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "README.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\README.txt",
+              "RelativeDocumentMoniker": "README.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\README.txt",
+              "RelativeToolTip": "README.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T15:03:52.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GotoTable.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\GotoTable.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\inputs\\GotoTable.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\GotoTable.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\inputs\\GotoTable.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T14:40:49.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Grammar.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\Grammar.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\inputs\\Grammar.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\Grammar.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\inputs\\Grammar.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T15:04:41.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ActionTable.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\ActionTable.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\inputs\\ActionTable.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\ActionTable.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\inputs\\ActionTable.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T14:42:33.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "input7.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input7.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\inputs\\input7.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input7.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\inputs\\input7.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T15:44:19.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "input2.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input2.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\inputs\\input2.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input2.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\inputs\\input2.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T13:23:31.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "input1.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input1.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\inputs\\input1.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input1.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\inputs\\input1.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T13:23:29.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "input9.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input9.txt",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\inputs\\input9.txt",
+              "ToolTip": "C:\\Users\\abdul\\Desktop\\Hw1parser\\bin\\Debug\\net8.0\\inputs\\input9.txt",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\inputs\\input9.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T14:40:06.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "input1.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\input1.txt",
+              "RelativeDocumentMoniker": "..\\..\\Downloads\\input1.txt",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\input1.txt",
+              "RelativeToolTip": "..\\..\\Downloads\\input1.txt",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T13:22:09.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GotoTable.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\GotoTable.txt",
+              "RelativeDocumentMoniker": "..\\..\\Downloads\\GotoTable.txt",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\GotoTable.txt",
+              "RelativeToolTip": "..\\..\\Downloads\\GotoTable.txt",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T13:17:58.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ActionTable.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\ActionTable.txt",
+              "RelativeDocumentMoniker": "..\\..\\Downloads\\ActionTable.txt",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\ActionTable.txt",
+              "RelativeToolTip": "..\\..\\Downloads\\ActionTable.txt",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T13:17:56.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Grammar.txt",
+              "DocumentMoniker": "C:\\Users\\abdul\\Downloads\\Grammar.txt",
+              "RelativeDocumentMoniker": "..\\..\\Downloads\\Grammar.txt",
+              "ToolTip": "C:\\Users\\abdul\\Downloads\\Grammar.txt",
+              "RelativeToolTip": "..\\..\\Downloads\\Grammar.txt",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-01T13:17:53.506Z"
             }
           ]
         }
